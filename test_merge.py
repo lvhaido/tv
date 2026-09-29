@@ -5,7 +5,7 @@
 """
 import json, subprocess, re, concurrent.futures, os, time, shutil, urllib.request
 
-FFPROBE = shutil.which("ffprobe")  # GitHub Actions 里存在；本机没有则走 HTTP 兜底
+FFMPEG = shutil.which("ffmpeg")  # GitHub Actions 已装 ffmpeg；本机没有则走 HTTP 兜底
 
 def is_ts(data):
     """判断字节里是否含 TS(0x47) 同步流"""
@@ -40,23 +40,30 @@ def http_probe(url, timeout=12):
     except Exception:
         return None
 
-def probe(url, timeout=10):
-    """返回 True=有节目, False=无信号, None=不确定/失败"""
-    if FFPROBE:
+def probe(url, timeout=14):
+    """返回 True=有节目, False=无信号, None=不确定/失败
+    云端用 ffmpeg 实际解码 6 秒：能持续解出真实数据才算有节目（更严，滤掉"能连但会卡/黑"的源）"""
+    if FFMPEG:
+        DUR = 6
         try:
+            t0 = time.time()
             r = subprocess.run(
-                [FFPROBE, "-v", "error",
-                 "-show_entries", "stream=codec_type",
-                 "-of", "csv=p=0",
-                 "-rw_timeout", "12000000", url],
+                ["ffmpeg", "-v", "error", "-t", str(DUR), "-i", url, "-f", "null", "-"],
                 capture_output=True, text=True, timeout=timeout,
             )
             out = (r.stdout or "") + (r.stderr or "")
-            if "video" in out or "audio" in out:
-                return True
-            if "Connection" in out or "404" in out or "403" in out or "Invalid" in out or "unable" in out:
+            elapsed = time.time() - t0
+            fatal = any(k in out for k in
+                ["Connection refused", "404", "403", "could not open", "unable to open",
+                 "No such file", "network unreachable", "Connection reset",
+                 "Invalid data", "immediate exit", "Input/output error", "Input error"])
+            if fatal:
                 return False
-            return None  # 连上但没解出 → 存疑
+            if elapsed >= DUR - 1:   # 真正解了近 6 秒 → 有节目
+                return True
+            if ("video:" in out.lower() or "audio:" in out.lower()) and "error" not in out.lower():
+                return True
+            return None             # 连上但数据不足 → 存疑，不进列表
         except subprocess.TimeoutExpired:
             return False
         except Exception:
@@ -90,7 +97,7 @@ def main():
     print(f"候选 {len(cands)} 条，开始实测...")
 
     results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
         for (name, url), ok in zip(
             [(c["name"], c["url"]) for c in cands],
             ex.map(lambda c: probe(c["url"]), cands),

@@ -74,9 +74,21 @@ def main():
             seen.add(url)
             cands.append({"name": name, "url": url})
 
+    # 每台最多保留 N 条候选，压缩实测规模（避免几百条全部 ffprobe 拖慢）
+    N = 5
+    by_name = {}
+    for c in cands:
+        key = re.sub(r"[\s\[\]\-（）()]", "", c["name"]).lower()
+        key = re.sub(r"(高清|超清|标清|HD|SD|HDR|4K|TV|频道|台)$", "", key, flags=re.I)
+        by_name.setdefault(key, []).append(c)
+    limited = []
+    for k, v in by_name.items():
+        limited.extend(v[:N])
+    cands = limited
+
     with open("candidates.json", "w", encoding="utf-8") as f:
         json.dump(cands, f, ensure_ascii=False, indent=2)
-    print(f"共筛出候选 {len(cands)} 条")
+    print(f"共筛出候选 {len(cands)} 条（去重后每台限 {N} 条）")
 
 if __name__ == "__main__":
     main()
