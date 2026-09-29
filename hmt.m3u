@@ -14,7 +14,9 @@ https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 
 # ---------- 凤凰 ----------
 #EXTINF:-1 group-title="凤凰",凤凰资讯HD
-http://182.135.66.163:1888/rtp/239.94.2.49:5140
+http://182.135.66.163:1888/rtp/239.94.2.50:5140
+#EXTINF:-1 group-title="凤凰",凤凰资讯HD
+http://182.135.66.163:18888/rtp/239.94.2.50:5140
 #EXTINF:-1 group-title="凤凰",凤凰卫视
 http://120.198.101.106:9901/tsfile/live/1062_1.m3u8?key=txiptv
 
@@ -23,22 +25,32 @@ http://120.198.101.106:9901/tsfile/live/1062_1.m3u8?key=txiptv
 http://61.10.2.145/live_freedirect/freehd209_h.live/chunklist.m3u8
 #EXTINF:-1 group-title="台湾台",台视
 http://xn--94q.l5.ca/daili/Smartv.php?id=ttv_taiwan
+#EXTINF:-1 group-title="台湾台",三立综合
+http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
+#EXTINF:-1 group-title="台湾台",三立综合
+https://aktv.top/AKTV/live/aktv/null13/AKTV.m3u8
+#EXTINF:-1 group-title="台湾台",中天亚洲台
+http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
+#EXTINF:-1 group-title="台湾台",中天亚洲台
+https://aktv.top/AKTV/live/aktv/null12/AKTV.m3u8
 #EXTINF:-1 group-title="台湾台",八大精彩
 http://45.192.97.170:8880/play/1329.m3u8
-#EXTINF:-1 group-title="台湾台",非凡新闻
-http://45.192.97.170:8880/play/1166.m3u8
 #EXTINF:-1 group-title="台湾台",华视新闻
 http://45.192.97.170:8880/play/1311.m3u8
 #EXTINF:-1 group-title="台湾台",民视影剧
 http://45.192.97.170:8880/play/1183.m3u8
+#EXTINF:-1 group-title="台湾台",民视综艺
+http://45.192.97.170:8880/play/1321.m3u8
 #EXTINF:-1 group-title="台湾台",中视新闻
 http://45.192.97.170:8880/play/1316.m3u8
+#EXTINF:-1 group-title="台湾台",东森财经新闻
+http://45.192.97.170:8880/play/1315.m3u8
 #EXTINF:-1 group-title="台湾台",三立新闻iNEWS
 http://45.192.97.170:8880/play/1313.m3u8
 
 # ---------- 无线TVB ----------
-#EXTINF:-1 group-title="无线TVB",TVBS欢乐
-http://45.192.97.170:8880/play/1327.m3u8
+#EXTINF:-1 group-title="无线TVB",TVB星河
+https://cdn10.123.rr.kg/163189/xinghe/
 
 # ---------- 澳门 ----------
 #EXTINF:-1 group-title="澳门",澳视澳门台
