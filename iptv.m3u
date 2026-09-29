@@ -1,0 +1,497 @@
+#2026年9月29日版本更新
+
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e1.xml.gz"
+
+# ---------- 央视 ----------
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1综合[高清]
+http://192.168.1.1:8012/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2财经[高清]
+http://192.168.1.1:8012/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3综艺[高清]
+http://192.168.1.1:8012/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4中文国际[高清]
+http://192.168.1.1:8012/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5体育[高清]
+http://192.168.1.1:8012/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV-6电影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7国防军事[高清]
+http://192.168.1.1:8012/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8电视剧[高清]
+http://192.168.1.1:8012/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9纪录[高清]
+http://192.168.1.1:8012/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10科教[高清]
+http://192.168.1.1:8012/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视",CCTV-11戏曲[高清]
+http://192.168.1.1:8012/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视",CCTV-12社会与法[高清]
+http://192.168.1.1:8012/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13新闻[高清]
+http://192.168.1.1:8012/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV-14少儿[高清]
+http://192.168.1.1:8012/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15音乐[高清]
+http://192.168.1.1:8012/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-id="1864" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV-16奥林匹克频道[高清]
+http://192.168.1.1:8012/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17农业农村[高清]
+http://192.168.1.1:8012/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K 超高清[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.245:2000
+#EXTINF:-1 tvg-id="22" tvg-name="CCTV4EUO" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4EUO.png" group-title="央视",CCTV-4 中文国际 欧洲[高清]
+http://192.168.1.1:8012/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-id="23" tvg-name="CCTV4AME" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4AME.png" group-title="央视",CCTV-4 中文国际 美洲[高清]
+http://192.168.1.1:8012/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV5+[高清]
+http://192.168.1.1:8012/rtp/239.3.1.130:8004
+
+# ---------- 北京 ----------
+
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",BRTV北京卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",BRTV北京卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-id="1181" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="北京",BRTV新闻[高清]
+http://192.168.1.1:8012/rtp/239.3.1.159:8000
+#EXTINF:-1 tvg-id="1174" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="北京",BRTV文艺[高清]
+http://192.168.1.1:8012/rtp/239.3.1.242:8000
+#EXTINF:-1 tvg-id="1176" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="北京",BRTV影视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.158:8000
+#EXTINF:-1 tvg-id="1178"  tvg-name="BTV体育"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京",BRTV体育休闲[高清]
+http://192.168.1.1:8012/rtp/239.3.1.243:8000
+#EXTINF:-1 tvg-id="1177"  tvg-name="BTV财经"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png"  group-title="北京",BRTV财经[高清]
+http://192.168.1.1:8012/rtp/239.3.1.116:8000
+#EXTINF:-1  tvg-id="1179"  tvg-name="BTV生活"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png"  group-title="北京",BRTV生活[高清]
+http://192.168.1.1:8012/rtp/239.3.1.117:8000
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",BRTV国际频道[高清]
+http://192.168.1.1:8012/rtp/239.3.1.235:8000
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",朝阳电视台[高清]
+http://192.168.1.1:8012/rtp/239.3.1.163:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",密云电视台[高清]
+http://192.168.1.1:8012/rtp/239.3.1.154:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",房山电视台[高清]
+http://192.168.1.1:8012/rtp/239.3.1.96:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",通州融媒[高清]
+http://192.168.1.1:8012/rtp/239.3.1.221:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",门头沟电视台[高清]
+http://192.168.1.1:8012/rtp/239.3.1.59:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京",延庆电视台
+http://192.168.1.1:8012/rtp/239.3.1.187:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="北京",平谷融媒[高清]
+http://192.168.1.1:8012/rtp/239.3.1.23:8001
+
+
+
+
+# ---------- 影视 ----------
+#EXTINF:-1 tvg-id="7244" tvg-name="爱上4K" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/aishang4k.png" group-title="影视",爱上4K[4K]
+http://192.168.1.1:8012/rtp/239.3.1.236:2000
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",北京IPTV 4K超清[4K]
+http://192.168.1.1:8012/rtp/239.3.1.249:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",北京IPTV淘娱乐[高清]
+http://192.168.1.1:8012/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",北京IPTV淘剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",北京IPTV淘电影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",武侠剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.90:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",喜剧影院[高清]
+http://192.168.1.1:8012/rtp/239.3.1.91:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",动作影院[高清]
+http://192.168.1.1:8012/rtp/239.3.1.92:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",家庭影院[高清]
+http://192.168.1.1:8012/rtp/239.3.1.93:4120
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",星影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.94:4120
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",光影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.84:4120
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",精选[高清]
+http://192.168.1.1:8012/rtp/239.3.1.74:4120
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",经典电影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.195:9024
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",城市剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.67:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",军旅剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.68:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",古装剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.69:4120
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="影视",CHC动作电影[高清]
+http://192.168.1.1:8012/rtp/239.3.1.106:8001
+#EXTINF:-1 tvg-name="IPTV热播剧场" group-title="影视",热播剧场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.194:9020
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="影视",重温经典[高清]
+http://192.168.1.1:8012/rtp/239.3.1.25:8001
+
+# ---------- 卫视 ----------
+
+#EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.112:3002
+#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.119:3006
+#EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视",浙江卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.114:3004
+#EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.113:3003
+#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.28:2000
+#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.27:2000
+#EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="卫视",山东卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.144:3005
+#EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视",四川卫视[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.131:3001
+#EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视",安徽卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视",天津卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视",重庆卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视",河北卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视",河南卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.50:8184
+#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视",贵州卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视",东南卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视",江西卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-id="42" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="卫视",甘肃卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.201:8180
+#EXTINF:-1 tvg-id="61" tvg-name="兵团卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" group-title="卫视",兵团卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.168:8196
+#EXTINF:-1 tvg-id="53" tvg-name="宁夏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/ningxia.png" group-title="卫视",宁夏卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.169:8212
+#EXTINF:-1 tvg-id="57" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视",新疆卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.167:8192
+#EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视",西藏卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.166:8188
+#EXTINF:-1 tvg-name="旅游卫视" group-title="卫视",海南卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.205:8228
+#EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视",云南卫视
+http://192.168.1.1:8012/rtp/239.3.1.26:8108
+#EXTINF:-1 tvg-id="68" tvg-name="厦门卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xiamen.png" group-title="卫视",厦门卫视
+http://192.168.1.1:8012/rtp/239.3.1.143:4120
+#EXTINF:-1 tvg-id="54" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="卫视",山西卫视
+http://192.168.1.1:8012/rtp/239.3.1.42:8172
+#EXTINF:-1 tvg-id="43" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视",广西卫视
+http://192.168.1.1:8012/rtp/239.3.1.39:8300
+#EXTINF:-1 tvg-id="72" tvg-name="三沙卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="卫视",三沙卫视
+http://192.168.1.1:8012/rtp/239.3.1.155:4120
+#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视",陕西卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.203:8220
+#EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视",青海卫视
+http://192.168.1.1:8012/rtp/239.3.1.44:8184
+#EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视[高清]
+http://192.168.1.1:8012/rtp/239.3.1.204:8224
+
+
+
+# ---------- 纪录 ----------
+#EXTINF:-1 tvg-id="1173"  tvg-name="BTV科教"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png"  group-title="纪录",BRTV纪实科教[高清]
+http://192.168.1.1:8012/rtp/239.3.1.115:8000
+#EXTINF:-1 tvg-id="1324" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="纪录",金鹰纪实[高清]
+http://192.168.1.1:8012/rtp/239.3.1.58:8156
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="纪录",地理[高清]
+http://192.168.1.1:8012/rtp/239.3.1.71:4120
+#EXTINF:-1 tvg-name="求索记录" group-title="纪录",求索记录4K[超清HDR]
+http://192.168.1.1:8012/rtp/239.3.1.107:8001
+
+# ---------- 少儿 ----------
+#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿",BRTV卡酷动画[高清]
+http://192.168.1.1:8012/rtp/239.3.1.189:8000
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="少儿",北京IPTV淘Baby[高清]
+http://192.168.1.1:8012/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="少儿",北京IPTV 萌宠TV[高清]
+http://192.168.1.1:8012/rtp/239.3.1.102:8001
+#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" group-title="少儿",金鹰卡通
+http://192.168.1.1:8012/rtp/239.3.1.51:9252
+#EXTINF:-1 tvg-id="1434" tvg-name="嘉佳卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" group-title="少儿",嘉佳卡通
+http://192.168.1.1:8012/rtp/239.3.1.147:9268
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="少儿",动画[高清]
+http://192.168.1.1:8012/rtp/239.3.1.80:4120
+#EXTINF:-1 tvg-name="IPTV少儿动画" group-title="少儿",少儿动画[高清]
+http://192.168.1.1:8012/rtp/239.3.1.199:9000
+
+# ---------- 北京IPTV ----------
+#EXTINF:-1 tvg-id="1684" tvg-name="快乐垂钓" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" group-title="北京IPTV",快乐垂钓[高清]
+http://192.168.1.1:8012/rtp/239.3.1.164:8001
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 新闻[高清]
+http://192.168.1.1:8012/rtp/239.3.1.215:4220
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 记录[高清]
+http://192.168.1.1:8012/rtp/239.3.1.216:4220
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 西班牙语[高清]
+http://192.168.1.1:8012/rtp/239.3.1.217:4220
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 法语[高清]
+http://192.168.1.1:8012/rtp/239.3.1.218:4220
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 阿拉伯语[高清]
+http://192.168.1.1:8012/rtp/239.3.1.219:4220
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="北京IPTV",CGTN 俄语[高清]
+http://192.168.1.1:8012/rtp/239.3.1.220:4220
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京IPTV",中国教育1台[高清]
+http://192.168.1.1:8012/rtp/239.3.1.57:8152
+#EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="北京IPTV",山东教育
+http://192.168.1.1:8012/rtp/239.3.1.52:4120
+#EXTINF:-1 tvg-id="74" tvg-name="中国教育2台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育2台.png" group-title="北京IPTV",中国教育2台
+http://192.168.1.1:8012/rtp/239.3.1.54:4120
+#EXTINF:-1 tvg-id="1860" tvg-name="中国教育4台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="北京IPTV",中国教育4台
+http://192.168.1.1:8012/rtp/239.3.1.56:4120
+
+
+
+# ---------- 综合 ----------
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",音乐现场[高清]
+http://192.168.1.1:8012/rtp/239.3.1.70:4120
+#EXTINF:-1 tvg-name="中国交通频道" group-title="综合",中国交通[高清]
+http://192.168.1.1:8012/rtp/239.3.1.188:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",中国天气[高清]
+http://192.168.1.1:8012/rtp/239.3.1.108:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",军事[高清]
+http://192.168.1.1:8012/rtp/239.3.1.76:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",国学[高清]
+http://192.168.1.1:8012/rtp/239.3.1.77:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",墨宝[高清]
+http://192.168.1.1:8012/rtp/239.3.1.83:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",好学生[高清]
+http://192.168.1.1:8012/rtp/239.3.1.81:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",戏曲[高清]
+http://192.168.1.1:8012/rtp/239.3.1.78:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",早教[高清]
+http://192.168.1.1:8012/rtp/239.3.1.79:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",武术[高清]
+http://192.168.1.1:8012/rtp/239.3.1.87:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",爱生活[高清]
+http://192.168.1.1:8012/rtp/239.3.1.86:4120
+#EXTINF:-1 tvg-name="环球旅游" group-title="综合",环球旅游[高清]
+http://192.168.1.1:8012/rtp/239.3.1.109:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",睛彩广场舞[高清]
+http://192.168.1.1:8012/rtp/239.3.1.128:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",睛彩竞技[高清]
+http://192.168.1.1:8012/rtp/239.3.1.125:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",睛彩篮球[高清]
+http://192.168.1.1:8012/rtp/239.3.1.126:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",睛彩青少[高清]
+http://192.168.1.1:8012/rtp/239.3.1.127:8001
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",美人[高清]
+http://192.168.1.1:8012/rtp/239.3.1.73:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",美妆[高清]
+http://192.168.1.1:8012/rtp/239.3.1.72:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",解密[高清]
+http://192.168.1.1:8012/rtp/239.3.1.75:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",足球[高清]
+http://192.168.1.1:8012/rtp/239.3.1.89:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",鉴赏[高清]
+http://192.168.1.1:8012/rtp/239.3.1.82:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",高网[高清]
+http://192.168.1.1:8012/rtp/239.3.1.88:4120
+#EXTINF:-1 tvg-name="该频道节目单尚无" group-title="综合",魅力时尚[高清]
+http://192.168.1.1:8012/rtp/239.3.1.196:9012
+
+# ===== 被高清替代而移除的旧标清源(备份,去掉行首#启用) =====
+###EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视",海南卫视
+#http://192.168.1.1:8012/rtp/239.3.1.45:8304
+###EXTINF:-1 tvg-id="55" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视",陕西卫视
+#http://192.168.1.1:8012/rtp/239.3.1.41:8140
+###EXTINF:-1 tvg-id="52" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视",内蒙古卫视
+#http://192.168.1.1:8012/rtp/239.3.1.43:8176
+###EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="北京IPTV",中国教育1台
+#http://192.168.1.1:8012/rtp/239.3.1.146:4120
+
+# ===== 检测无信号的黑台(注释,去掉行首#启用) =====
+###EXTINF:-1 tvg-id="75" tvg-name="中国教育3台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育3台.png" group-title="北京IPTV",中国教育3台
+#http://192.168.1.1:8012/rtp/239.3.1.55:4120
+###EXTINF:-1 tvg-id="1674" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="北京IPTV",茶频道[高清]
+#http://192.168.1.1:8012/rtp/239.3.1.165:8001
+###EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="影视",每日影院[高清]
+#http://192.168.1.1:8012/rtp/239.3.1.111:8001
+###EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="纪录",纪实人文[高清]
+#http://192.168.1.1:8012/rtp/239.3.1.212:8060
+# 港台频道（自动收集+实测，仅保留能播源）
+
+# ---------- 其他港台 ----------
+#EXTINF:-1 group-title="其他港台",J2
+http://r.jdshipin.com/Nr5jq
+#EXTINF:-1 group-title="其他港台",J2
+http://r.jdshipin.com/ndGgS
+#EXTINF:-1 group-title="其他港台",RTHK32
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
+#EXTINF:-1 group-title="其他港台",RTHK32
+http://45.192.97.170:8880/play/1203.m3u8
+
+# ---------- 其他香港 ----------
+#EXTINF:-1 group-title="其他香港",ViuTVsix
+http://110.235.82.60:8001/bysid/96
+#EXTINF:-1 group-title="其他香港",ViuTV
+http://110.235.82.60:8001/bysid/99
+#EXTINF:-1 group-title="其他香港",VIUTV
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8$订阅源-1920x1080|1920x1080
+#EXTINF:-1 group-title="其他香港",韩·KoreaTV
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+
+# ---------- 凤凰 ----------
+#EXTINF:-1 group-title="凤凰",凤凰资讯HD
+http://182.135.66.163:1888/rtp/239.94.2.49:5140
+#EXTINF:-1 group-title="凤凰",凤凰中文HD
+http://182.135.66.163:18888/rtp/239.94.2.51:5140
+#EXTINF:-1 group-title="凤凰",凤凰中文
+https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8$订阅源
+#EXTINF:-1 group-title="凤凰",凤凰香港
+http://r.jdshipin.com/yDoTN
+#EXTINF:-1 group-title="凤凰",凤凰香港
+http://r.jdshipin.com/NfC0f
+#EXTINF:-1 group-title="凤凰",凤凰资讯
+http://r.jdshipin.com/0Rp07
+#EXTINF:-1 group-title="凤凰",凤凰卫视
+http://218.206.193.218:8888/hls/67/index.m3u8
+#EXTINF:-1 group-title="凤凰",凤凰卫视
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
+
+# ---------- 台湾台 ----------
+#EXTINF:-1 group-title="台湾台",三立戏剧台
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 group-title="台湾台",中天娱乐
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 group-title="台湾台",纬来精彩
+http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1 group-title="台湾台",大爱时尚专区HD
+http://182.135.66.163:1888/rtp/239.94.1.15:5140
+#EXTINF:-1 group-title="台湾台",大爱四川专区HD
+http://182.135.66.163:18888/rtp/239.94.1.12:5140
+#EXTINF:-1 group-title="台湾台",大爱四川专区HD
+http://182.135.66.163:18888/rtp/239.94.1.14:5140
+#EXTINF:-1 group-title="台湾台",纬来体育
+https://pixman.mytvsuper.com.mp/Smart.php?id=videolandsport
+#EXTINF:-1 group-title="台湾台",纬来体育
+http://50.7.234.10:8278/videolandsport/playlist.m3u8?tid=MD2D5343800653438006&ct=19234&tsum=1be724fb8246abfedaf2bd088ec98f03
+#EXTINF:-1 group-title="台湾台",中天新闻
+http://222.128.55.152:9080/live/fc.m3u8
+#EXTINF:-1 group-title="台湾台",寰宇新闻
+http://222.128.55.152:9080/live/hy.m3u8
+#EXTINF:-1 group-title="台湾台",台视新闻
+http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv051$1920x1080
+#EXTINF:-1 group-title="台湾台",台视新闻
+http://222.128.55.152:9080/live/ts.m3u8
+#EXTINF:-1 group-title="台湾台",东森新闻
+http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv152$1920x1080
+#EXTINF:-1 group-title="台湾台",东森新闻
+http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv152$IPV4『线路10』|1920x1080
+#EXTINF:-1 group-title="台湾台",民视新闻
+http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8?blog.ntnas.top$1920x1080
+#EXTINF:-1 group-title="台湾台",民视第一
+http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv003$1920x1080
+#EXTINF:-1 group-title="台湾台",纬来电影
+http://50.7.234.10:8278/videolandmovie/playlist.m3u8?tid=ma2dac66da407&ct=18335&tsum=9a5a39559f64a71081ef9b3a85f2886c
+#EXTINF:-1 group-title="台湾台",纬来日本
+http://50.7.234.10:8278/videolandjapan/playlist.m3u8?tid=MBEB7017910870179108&ct=19346&tsum=f7186077b9ae7cdb1970969bd90a4d0a
+#EXTINF:-1 group-title="台湾台",八大精彩
+http://45.192.97.170:8880/play/1329.m3u8
+#EXTINF:-1 group-title="台湾台",寰宇新闻
+http://jnzq.ohoyee.com:9080/live/xiangjiaoge-hyxw.m3u8
+#EXTINF:-1 group-title="台湾台",东森超视
+http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
+#EXTINF:-1 group-title="台湾台",东森超视
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+#EXTINF:-1 group-title="台湾台",中天新闻
+http://45.192.97.170:8880/play/1317.m3u8
+#EXTINF:-1 group-title="台湾台",非凡新闻
+http://45.192.97.170:8880/play/1166.m3u8
+#EXTINF:-1 group-title="台湾台",华视新闻
+http://45.192.97.170:8880/play/1311.m3u8
+#EXTINF:-1 group-title="台湾台",民视
+http://45.192.97.170:8880/play/1167.m3u8
+#EXTINF:-1 group-title="台湾台",民视影剧
+http://45.192.97.170:8880/play/1183.m3u8
+#EXTINF:-1 group-title="台湾台",民视综艺
+http://45.192.97.170:8880/play/1182.m3u8
+#EXTINF:-1 group-title="台湾台",民视新闻
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 group-title="台湾台",民视
+http://211.72.174.95:8115/0.ts
+#EXTINF:-1 group-title="台湾台",东森财经新闻
+http://45.192.97.170:8880/play/1315.m3u8
+
+# ---------- 无线TVB ----------
+#EXTINF:-1 group-title="无线TVB",TVBS新闻
+http://61.221.215.25:8800/hls/9/index.m3u8
+#EXTINF:-1 group-title="无线TVB",TVB无线新闻台
+https://nothingbe.serv00.net/tvb.php?id=C&type=hd$1920x1080
+#EXTINF:-1 group-title="无线TVB",TVB无线新闻台
+http://beishan008.asuscomm.com:8890/bysid/83.m3u8$1920x1080
+#EXTINF:-1 group-title="无线TVB",TVBS亚洲
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd$LR•IPV4『线路8』|1920x1080
+#EXTINF:-1 group-title="无线TVB",TVBS亚洲
+http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$LR•IPV4『线路2』|1920x1080
+#EXTINF:-1 group-title="无线TVB",无线新闻
+https://nothingbe.serv00.net/tvb.php?id=C&type=hd$订阅源|1920x1080|1920x1080
+#EXTINF:-1 group-title="无线TVB",无线新闻
+https://nothingbe.serv00.net/tvb.php?id=C&type=hd$1920x1080|1920x1080
+#EXTINF:-1 group-title="无线TVB",TVB星河
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
+#EXTINF:-1 group-title="无线TVB",TVB星河
+http://r.jdshipin.com/sXuuD
+#EXTINF:-1 group-title="无线TVB",TVBS新闻
+http://45.192.97.170:8880/play/1165.m3u8
+#EXTINF:-1 group-title="无线TVB",TVBS欢乐
+http://45.192.97.170:8880/play/1327.m3u8
+
+# ---------- 有线/now ----------
+#EXTINF:-1 group-title="有线/now",有线新闻
+http://61.10.2.140:80/live_freedirect/freehd209_h.live/chunklist_w135209556.m3u8
+#EXTINF:-1 group-title="有线/now",有线新闻
+http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u
+#EXTINF:-1 group-title="有线/now",NOW新闻
+https://cdn.qd.je/163189.php?id=now
+
+# ---------- 澳门 ----------
+#EXTINF:-1 group-title="澳门",澳视澳门
+https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门资讯
+https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门Macau
+https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门葡文
+https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门体育
+https://live5.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门综艺
+https://live5.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳视澳门 (VPN)
+https://globallive.tdm.com.mo/ch1/ch1.live/chunklist_w1441835208.m3u8
+#EXTINF:-1 group-title="澳门",澳门资讯 (VPN)
+https://globallive.tdm.com.mo/ch5/info_ch5.live/chunklist_w2076969297.m3u8
+#EXTINF:-1 group-title="澳门",澳门体育 (VPN)
+https://globallive.tdm.com.mo/ch4/sport_ch4.live/chunklist_w1258348496.m3u8
+#EXTINF:-1 group-title="澳门",澳门综艺 (VPN)
+https://globallive.tdm.com.mo/ch6/hd_ch6.live/chunklist_w915891956.m3u8
+#EXTINF:-1 group-title="澳门",澳门-Macau (VPN)
+https://globallive.tdm.com.mo/ch3/ch3.live/chunklist_w1253919208.m3u8
+#EXTINF:-1 group-title="澳门",澳门莲花
+http://45.192.97.170:8880/play/1208.m3u8
+
+# ---------- 翡翠明珠 ----------
+#EXTINF:-1 group-title="翡翠明珠",翡翠台
+http://110.235.82.60:8001/bysid/1
+#EXTINF:-1 group-title="翡翠明珠",翡翠台
+http://beishan008.asuscomm.com:8889/bysid/1.m3u8$1920x1080
+#EXTINF:-1 group-title="翡翠明珠",TVB明珠台
+http://r.jdshipin.com/GeWKr?id=mzt720
+#EXTINF:-1 group-title="翡翠明珠",明珠台
+http://r.jdshipin.com/GeWKr?id=mzt720$订阅源
+#EXTINF:-1 group-title="翡翠明珠",明珠台
+http://r.jdshipin.com/GeWKr?id=mzt720$
+#EXTINF:-1 group-title="翡翠明珠",TVB翡翠
+http://php.jdshipin.com/TVOD/iptv.php?id=fct
+#EXTINF:-1 group-title="翡翠明珠",TVB翡翠
+http://php.jdshipin.com/TVOD/iptv.php?id=fct2
+#EXTINF:-1 group-title="翡翠明珠",TVB明珠
+http://r.jdshipin.com/ZQ4kN
