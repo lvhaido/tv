@@ -1,0 +1,56 @@
+name: iptv-collect
+# 每天 06:00(UTC) 自动跑，也可在 Actions 页手动 Run workflow
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 防并发：同一时间只允许一个本工作流实例运行，避免重复拉取/推送打架
+concurrency:
+  group: iptv-collect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20   # 整体超时保护，防止源卡死拖住 runner
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装 ffmpeg（提供 ffprobe 实测判据）
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: 拉取源并筛出港台候选
+        run: python collect.py
+
+      - name: 实测并生成 hmt.m3u
+        run: python test_merge.py
+
+      - name: 并入主列表，生成发布版 iptv.m3u
+        run: python merge.py
+
+      - name: 最终文件自检
+        run: |
+          test -f iptv.m3u || { echo "缺少 iptv.m3u"; exit 1; }
+          n=$(grep -c '^#EXTINF' iptv.m3u || true)
+          echo "发布版频道数: $n"
+          test "$n" -ge 50 || { echo "频道数异常，放弃发布"; exit 1; }
+          echo "自检通过"
+
+      - name: 提交并推送
+        run: |
+          git config user.name "iptv-bot"
+          git config user.email "iptv-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "auto update $(date +%F)"
+          git push
