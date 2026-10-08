@@ -325,10 +325,6 @@ http://r.jdshipin.com/Nr5jq
 http://r.jdshipin.com/ndGgS
 
 # ---------- 其他香港 ----------
-#EXTINF:-1 group-title="其他香港",Viutv
-http://r.jdshipin.com/vSJvl
-#EXTINF:-1 group-title="其他香港",Viutv
-http://r.jdshipin.com/TcKr2
 #EXTINF:-1 group-title="其他香港",ViuTVsix
 http://110.235.82.60:8001/bysid/96
 
@@ -377,12 +373,10 @@ http://45.192.97.170:8880/play/1166.m3u8
 http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="台湾台",华视新闻
 http://45.192.97.170:8880/play/1311.m3u8
-#EXTINF:-1 group-title="台湾台",民视影剧
-http://45.192.97.170:8880/play/1183.m3u8
-#EXTINF:-1 group-title="台湾台",民视综艺
-http://45.192.97.170:8880/play/1182.m3u8
 #EXTINF:-1 group-title="台湾台",民视综艺
 http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837
+#EXTINF:-1 group-title="台湾台",民视综艺
+http://45.192.97.170:8880/play/1321.m3u8
 #EXTINF:-1 group-title="台湾台",中视新闻
 http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="台湾台",中视新闻
@@ -439,8 +433,6 @@ https://cdn.qd.je/163189.php?id=now
 # ---------- 澳门 ----------
 #EXTINF:-1 group-title="澳门",澳门资讯
 https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 group-title="澳门",澳门莲花
-http://45.192.97.170:8880/play/1208.m3u8
 
 # ---------- 翡翠明珠 ----------
 #EXTINF:-1 group-title="翡翠明珠",翡翠台
@@ -449,6 +441,8 @@ http://r.jdshipin.com/qClQf
 http://r.jdshipin.com/qrfbg
 #EXTINF:-1 group-title="翡翠明珠",福建漳州醉美沙滩翡翠湾
 https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
+#EXTINF:-1 group-title="翡翠明珠",TVB明珠台
+http://r.jdshipin.com/GeWKr?id=mzt720
 #EXTINF:-1 group-title="翡翠明珠",TVB翡翠
 http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 group-title="翡翠明珠",TVB翡翠
