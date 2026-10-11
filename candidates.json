@@ -115,6 +115,16 @@
     "group": "凤凰"
   },
   {
+    "name": "凤凰中文",
+    "url": "http://113.221.59.169:4000/udp/239.76.253.134:9000",
+    "group": "凤凰"
+  },
+  {
+    "name": "凤凰中文",
+    "url": "http://113.221.59.169:4000/udp/239.76.246.134:1234",
+    "group": "凤凰"
+  },
+  {
     "name": "凤凰中文HD",
     "url": "http://182.135.66.163:18888/rtp/239.94.2.51:5140",
     "group": "凤凰"
@@ -122,16 +132,6 @@
   {
     "name": "凤凰中文HD",
     "url": "http://182.135.66.163:18888/rtp/239.94.2.52:5140",
-    "group": "凤凰"
-  },
-  {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:1888/rtp/239.94.2.51:5140",
-    "group": "凤凰"
-  },
-  {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:1888/rtp/239.94.2.52:5140",
     "group": "凤凰"
   },
   {
@@ -565,11 +565,6 @@
     "group": "台湾台"
   },
   {
-    "name": "八大戏剧",
-    "url": "https://stream1.freetv.fun/6b1701a07ea621155cdaa9ee604b6c6ebc763093fafaf493ce7a3c2e206be799.m3u8",
-    "group": "台湾台"
-  },
-  {
     "name": "三立戏剧台",
     "url": "http://61.221.215.25:8800/hls/41/index.m3u8",
     "group": "台湾台"
@@ -725,11 +720,6 @@
     "group": "凤凰"
   },
   {
-    "name": "凤凰卫视",
-    "url": "http://122.152.202.33/s/81a8a44f/index.m3u8?id=15",
-    "group": "凤凰"
-  },
-  {
     "name": "凤凰卫视资讯台",
     "url": "http://146.56.151.147:5000/youtube/HFib76ySpbU",
     "group": "凤凰"
@@ -821,17 +811,7 @@
   },
   {
     "name": "TVB星河",
-    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVB星河",
-    "url": "https://cdn10.123.rr.kg/163189/xinghe/",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVB星河",
-    "url": "http://31.43.191.125:8080/VIP019301734188047280/7bce5254f13d/34560",
+    "url": "http://31.43.191.125:8080/restream/restream/34560",
     "group": "无线TVB"
   },
   {
@@ -847,11 +827,6 @@
   {
     "name": "NOW 爆谷",
     "url": "https://dko29we9nm1rd.cloudfront.net/hls/CH133/index.m3u8",
-    "group": "有线/now"
-  },
-  {
-    "name": "Now爆谷",
-    "url": "https://test.946985.filegear-sg.me/proxy/d82d2bda2cc2cbaa",
     "group": "有线/now"
   },
   {
@@ -987,11 +962,6 @@
   {
     "name": "TVBS欢乐",
     "url": "http://45.192.97.170:8880/play/1327.m3u8",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVBS欢乐",
-    "url": "https://test.946985.filegear-sg.me/proxy/84820d3dc03cb8b7",
     "group": "无线TVB"
   },
   {
@@ -1330,64 +1300,14 @@
     "group": "澳门"
   },
   {
-    "name": "TVB千禧经典",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbc",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVB娱乐新闻",
-    "url": "http://ysift55.xyz/live/52TLK6U/TNLMRY9/1052635.ts",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVB娱乐新闻",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw",
-    "group": "无线TVB"
-  },
-  {
-    "name": "TVB娱乐新闻",
-    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2",
-    "group": "无线TVB"
-  },
-  {
     "name": "NOW新闻",
-    "url": "https://cdn.123.rr.kg/163189/now",
+    "url": "http://173.208.234.146/live/nowxw.m3u8",
     "group": "有线/now"
   },
   {
     "name": "NOW新闻",
-    "url": "https://cdn.qd.je/163189.php?id=now",
+    "url": "http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts",
     "group": "有线/now"
-  },
-  {
-    "name": "NOW新闻",
-    "url": "https://cdn.19891230.eu.org/hk/now-332/index.m3u8",
-    "group": "有线/now"
-  },
-  {
-    "name": "NOW新闻",
-    "url": "https://cdn.qd.je/163189.php?id=now美亚电影",
-    "group": "有线/now"
-  },
-  {
-    "name": "NOW新闻",
-    "url": "https://cdn.qd.je/163189.php?id=now香港佛陀",
-    "group": "有线/now"
-  },
-  {
-    "name": "NOW财经",
-    "url": "https://cdn.19891230.eu.org/hk/now-333/index.m3u8",
-    "group": "有线/now"
-  },
-  {
-    "name": "TVB翡翠",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fct",
-    "group": "翡翠明珠"
-  },
-  {
-    "name": "TVB翡翠",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fct2",
-    "group": "翡翠明珠"
   },
   {
     "name": "澳门资讯",
@@ -1400,23 +1320,8 @@
     "group": "台湾台"
   },
   {
-    "name": "八大精彩",
-    "url": "https://test.946985.filegear-sg.me/proxy/9061feac2ccad080",
-    "group": "台湾台"
-  },
-  {
-    "name": "八大综艺",
-    "url": "https://test.946985.filegear-sg.me/proxy/98783bd6d30c6172",
-    "group": "台湾台"
-  },
-  {
     "name": "非凡新闻",
-    "url": "http://45.192.97.170:8880/play/1166.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "非凡新闻",
-    "url": "http://31.43.191.125:8080/VIP019301734188047280/7bce5254f13d/34832",
+    "url": "http://31.43.191.125:8080/restream/restream/34832",
     "group": "台湾台"
   },
   {
@@ -1436,18 +1341,8 @@
   },
   {
     "name": "华视新闻",
-    "url": "http://220.135.64.124:5050/of-4gtv-4gtv052/index.m3u8?proxy=true",
+    "url": "http://31.43.191.125:8080/restream/restream/34886",
     "group": "台湾台"
-  },
-  {
-    "name": "华视新闻",
-    "url": "https://test.946985.filegear-sg.me/proxy/db5de5d676197e66",
-    "group": "台湾台"
-  },
-  {
-    "name": "澳门莲花",
-    "url": "https://cdn6.123.rr.kg/163189/amlh",
-    "group": "澳门"
   },
   {
     "name": "澳门莲花",
@@ -1455,43 +1350,8 @@
     "group": "澳门"
   },
   {
-    "name": "民视影剧",
-    "url": "http://45.192.97.170:8880/play/1183.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视影剧",
-    "url": "https://test.946985.filegear-sg.me/proxy/46f98b6f81c5bae4",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视综艺",
-    "url": "http://45.192.97.170:8880/play/1182.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视综艺",
-    "url": "http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视综艺",
-    "url": "http://45.192.97.170:8880/play/1321.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视综艺",
-    "url": "https://test.946985.filegear-sg.me/proxy/942f93dffd0ffc88",
-    "group": "台湾台"
-  },
-  {
     "name": "中视新闻",
     "url": "http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837",
-    "group": "台湾台"
-  },
-  {
-    "name": "中视新闻",
-    "url": "http://74.91.26.218:82/live/ctvnews.m3u8",
     "group": "台湾台"
   },
   {
@@ -1501,12 +1361,12 @@
   },
   {
     "name": "中视新闻",
-    "url": "https://t.freetv.fun/live/zhong-shi-xin-wen.ts",
+    "url": "https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8",
     "group": "台湾台"
   },
   {
     "name": "中视新闻",
-    "url": "https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8",
+    "url": "http://31.43.191.125:8080/restream/restream/34896",
     "group": "台湾台"
   },
   {
@@ -1520,8 +1380,13 @@
     "group": "台湾台"
   },
   {
-    "name": "东森财经新闻",
-    "url": "https://test.946985.filegear-sg.me/proxy/f12538d1a3c40515",
+    "name": "民视综艺",
+    "url": "http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837",
+    "group": "台湾台"
+  },
+  {
+    "name": "民视综艺",
+    "url": "http://45.192.97.170:8880/play/1321.m3u8",
     "group": "台湾台"
   },
   {
@@ -1535,33 +1400,18 @@
     "group": "台湾台"
   },
   {
-    "name": "三立新闻iNEWS",
-    "url": "https://test.946985.filegear-sg.me/proxy/00de5aa900efc4a6",
+    "name": "中天综合",
+    "url": "http://31.43.191.125:8080/restream/restream/34898",
     "group": "台湾台"
   },
   {
     "name": "中视菁采",
-    "url": "http://74.91.26.218:82/live/ctvjc.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "中视菁采",
-    "url": "https://t.freetv.fun/live/zhong-shi-jing-cai.ts",
+    "url": "http://31.43.191.125:8080/restream/restream/34894",
     "group": "台湾台"
   },
   {
     "name": "中视经典",
-    "url": "http://74.91.26.218:82/live/ctvjd.m3u8",
-    "group": "台湾台"
-  },
-  {
-    "name": "中视经典",
-    "url": "https://stream1.freetv.fun/zhong-shi-jing-dian-1.ctv",
-    "group": "台湾台"
-  },
-  {
-    "name": "民视旅游",
-    "url": "https://test.946985.filegear-sg.me/proxy/1bb9dd3c90eeebaf",
+    "url": "http://31.43.191.125:8080/restream/restream/34895",
     "group": "台湾台"
   }
 ]
