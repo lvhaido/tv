@@ -20,7 +20,7 @@ http://110.235.82.60:8001/bysid/96
 #EXTINF:-1 group-title="凤凰",凤凰中文
 https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
 #EXTINF:-1 group-title="凤凰",凤凰中文HD
-http://182.135.66.163:18888/rtp/239.94.2.51:5140
+http://182.135.66.163:1888/rtp/239.94.2.51:5140
 #EXTINF:-1 group-title="凤凰",凤凰资讯
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 #EXTINF:-1 group-title="凤凰",凤凰资讯
@@ -55,6 +55,8 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv051$1920x1080
 http://50.7.234.10:8278/videolandjapan/playlist.m3u8?tid=MBEB7017910870179108&ct=19346&tsum=f7186077b9ae7cdb1970969bd90a4d0a
 #EXTINF:-1 group-title="台湾台",八大精彩
 http://45.192.97.170:8880/play/1329.m3u8
+#EXTINF:-1 group-title="台湾台",非凡新闻
+http://31.43.191.125:8080/restream/restream/34832
 #EXTINF:-1 group-title="台湾台",华视新闻
 http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="台湾台",华视新闻
