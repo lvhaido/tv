@@ -320,27 +320,25 @@ http://192.168.1.1:8012/rtp/239.3.1.196:9012
 
 # ---------- 其他港台 ----------
 #EXTINF:-1 group-title="其他港台",J2
-http://r.jdshipin.com/Nr5jq
-#EXTINF:-1 group-title="其他港台",J2
 http://r.jdshipin.com/ndGgS
 
 # ---------- 其他香港 ----------
+#EXTINF:-1 group-title="其他香港",Viutv
+http://r.jdshipin.com/vSJvl
+#EXTINF:-1 group-title="其他香港",Viutv
+http://r.jdshipin.com/TcKr2
 #EXTINF:-1 group-title="其他香港",ViuTVsix
 http://110.235.82.60:8001/bysid/96
 
 # ---------- 凤凰 ----------
 #EXTINF:-1 group-title="凤凰",凤凰中文
 https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
-#EXTINF:-1 group-title="凤凰",凤凰中文HD
-http://182.135.66.163:1888/rtp/239.94.2.51:5140
+#EXTINF:-1 group-title="凤凰",凤凰中文
+http://113.221.59.169:4000/udp/239.76.253.134:9000
 #EXTINF:-1 group-title="凤凰",凤凰资讯
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
-#EXTINF:-1 group-title="凤凰",凤凰资讯
-http://r.jdshipin.com/0Rp07
 #EXTINF:-1 group-title="凤凰",凤凰香港
-http://r.jdshipin.com/yDoTN
-#EXTINF:-1 group-title="凤凰",凤凰香港
-http://r.jdshipin.com/NfC0f
+https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
 #EXTINF:-1 group-title="凤凰",凤凰卫视
 http://218.206.193.218:8888/hls/67/index.m3u8
 
@@ -383,12 +381,10 @@ http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
 http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 group-title="无线TVB",无线新闻
 https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
-#EXTINF:-1 group-title="无线TVB",无线新闻
-http://r.jdshipin.com/CkuBd
 #EXTINF:-1 group-title="无线TVB",无线星河
 http://r.jdshipin.com/sXuuD
 #EXTINF:-1 group-title="无线TVB",无线星河
-http://r.jdshipin.com/Voac4
+http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 group-title="无线TVB",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 group-title="无线TVB",TVB无线新闻台
@@ -412,10 +408,6 @@ https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
 
 # ---------- 翡翠明珠 ----------
 #EXTINF:-1 group-title="翡翠明珠",翡翠台
-http://r.jdshipin.com/qClQf
-#EXTINF:-1 group-title="翡翠明珠",翡翠台
-http://r.jdshipin.com/qrfbg
+http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="翡翠明珠",福建漳州醉美沙滩翡翠湾
 https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
-#EXTINF:-1 group-title="翡翠明珠",TVB明珠台
-http://r.jdshipin.com/GeWKr?id=mzt720
