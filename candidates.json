@@ -115,23 +115,23 @@
     "group": "凤凰"
   },
   {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:18888/rtp/239.94.2.51:5140",
+    "name": "凤凰中文",
+    "url": "https://cdn.163189.xyz/live/fhzw/stream.m3u8$1920x1080",
     "group": "凤凰"
   },
   {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:18888/rtp/239.94.2.52:5140",
+    "name": "凤凰中文",
+    "url": "http://cdn.132.us.kg/live/fhzw/stream.m3u8$1920x1080",
     "group": "凤凰"
   },
   {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:1888/rtp/239.94.2.51:5140",
+    "name": "凤凰中文",
+    "url": "http://aktv_stream.m16tv.cfd/stream/aktv/null-3/AKTV.m3u8$1920x1080",
     "group": "凤凰"
   },
   {
-    "name": "凤凰中文HD",
-    "url": "http://182.135.66.163:1888/rtp/239.94.2.52:5140",
+    "name": "凤凰中文",
+    "url": "http://110.81.206.138:49231/tsfile/live/23020_1.m3u8?txiptv&playlive",
     "group": "凤凰"
   },
   {
