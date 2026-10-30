@@ -331,6 +331,10 @@ http://r.jdshipin.com/TcKr2
 http://110.235.82.60:8001/bysid/96
 
 # ---------- 凤凰 ----------
+#EXTINF:-1 group-title="凤凰",凤凰中文HD
+http://182.135.66.163:1888/rtp/239.94.2.51:5140
+#EXTINF:-1 group-title="凤凰",凤凰中文HD
+http://182.135.66.163:1888/rtp/239.94.2.52:5140
 #EXTINF:-1 group-title="凤凰",凤凰资讯
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 #EXTINF:-1 group-title="凤凰",凤凰香港
@@ -365,12 +369,8 @@ http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
 http://45.192.97.170:8880/play/1311.m3u8
 #EXTINF:-1 group-title="台湾台",中视新闻
 http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
-#EXTINF:-1 group-title="台湾台",中视新闻
-http://45.192.97.170:8880/play/1316.m3u8
 #EXTINF:-1 group-title="台湾台",东森财经新闻
 http://4gtv.cnlive.club/channel/57ce2e74/index.m3u8?q=1782639885837
-#EXTINF:-1 group-title="台湾台",东森财经新闻
-http://45.192.97.170:8880/play/1315.m3u8
 #EXTINF:-1 group-title="台湾台",民视综艺
 http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="台湾台",民视综艺
@@ -397,10 +397,10 @@ http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 group-title="无线TVB",TVB无线新闻台
 https://nothingbe.serv00.net/tvb.php?id=C&type=hd$1920x1080
-#EXTINF:-1 group-title="无线TVB",TVB星河
-http://31.43.191.125:8080/restream/restream/34560
 #EXTINF:-1 group-title="无线TVB",TVBS欢乐
 http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837
+#EXTINF:-1 group-title="无线TVB",TVBS欢乐
+http://45.192.97.170:8880/play/1327.m3u8
 
 # ---------- 有线/now ----------
 #EXTINF:-1 group-title="有线/now",有线新闻
@@ -413,9 +413,9 @@ http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 # ---------- 澳门 ----------
 #EXTINF:-1 group-title="澳门",澳门资讯
 https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+#EXTINF:-1 group-title="澳门",澳门莲花
+http://45.192.97.170:8880/play/1208.m3u8
 
 # ---------- 翡翠明珠 ----------
 #EXTINF:-1 group-title="翡翠明珠",翡翠台
 http://r.jdshipin.com/62WM7
-#EXTINF:-1 group-title="翡翠明珠",福建漳州醉美沙滩翡翠湾
-https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
