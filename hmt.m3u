@@ -55,12 +55,8 @@ http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
 http://45.192.97.170:8880/play/1311.m3u8
 #EXTINF:-1 group-title="台湾台",中视新闻
 http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
-#EXTINF:-1 group-title="台湾台",中视新闻
-http://45.192.97.170:8880/play/1316.m3u8
 #EXTINF:-1 group-title="台湾台",东森财经新闻
 http://4gtv.cnlive.club/channel/57ce2e74/index.m3u8?q=1782639885837
-#EXTINF:-1 group-title="台湾台",东森财经新闻
-http://45.192.97.170:8880/play/1315.m3u8
 #EXTINF:-1 group-title="台湾台",民视综艺
 http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="台湾台",民视综艺
